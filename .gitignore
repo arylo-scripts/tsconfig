@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+logs/
+.turbo/
+.DS_Store

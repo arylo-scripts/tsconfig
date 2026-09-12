@@ -1,0 +1,28 @@
+{
+  "name": "@arylo-scripts/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configuration for arylo-scripts projects.",
+  "files": [
+    "base.json"
+  ],
+  "exports": {
+    "./base.json": "./base.json"
+  },
+  "scripts": {
+    "build": "npm run lint",
+    "lint": "node -e \"JSON.parse(require('node:fs').readFileSync('base.json', 'utf8'))\""
+  },
+  "engines": {
+    "node": "24.12.0"
+  },
+  "packageManager": "npm@11.6.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arylo-scripts/tsconfig.git"
+  },
+  "homepage": "https://github.com/arylo-scripts/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/arylo-scripts/tsconfig/issues"
+  },
+  "license": "MIT"
+}
