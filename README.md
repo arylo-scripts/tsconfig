@@ -9,7 +9,7 @@ Add the package to a project:
 ```json
 {
   "devDependencies": {
-    "@arylo-scripts/tsconfig": "github:arylo-scripts/tsconfig#v1.0.0"
+    "@arylo-scripts/tsconfig": "github:arylo-scripts/tsconfig#main"
   }
 }
 ```
