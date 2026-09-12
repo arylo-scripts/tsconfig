@@ -9,7 +9,6 @@
     "./base.json": "./base.json"
   },
   "scripts": {
-    "build": "npm run lint",
     "lint": "node -e \"JSON.parse(require('node:fs').readFileSync('base.json', 'utf8'))\""
   },
   "engines": {

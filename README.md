@@ -27,5 +27,6 @@ each consuming repository.
 
 ## Publishing
 
-Publishing is triggered by a GitHub Release. The workflow publishes the package
-to GitHub Packages using the repository `GITHUB_TOKEN`.
+Publishing is triggered by pushing a version tag such as `v1.0.0`. The tag must
+match the package version. The workflow publishes the package to GitHub Packages
+using the repository `GITHUB_TOKEN`.
