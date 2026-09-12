@@ -8,6 +8,10 @@
   "exports": {
     "./base.json": "./base.json"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "lint": "node -e \"JSON.parse(require('node:fs').readFileSync('base.json', 'utf8'))\""
   },
