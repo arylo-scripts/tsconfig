@@ -4,12 +4,18 @@ Shared TypeScript configuration for arylo-scripts projects.
 
 ## Usage
 
-Add the package to a project:
+Install the package:
+
+```sh
+npm install --save-dev @arylo-scripts/tsconfig
+```
+
+Or add it to `devDependencies`:
 
 ```json
 {
   "devDependencies": {
-    "@arylo-scripts/tsconfig": "github:arylo-scripts/tsconfig#master"
+    "@arylo-scripts/tsconfig": "^1.0.0"
   }
 }
 ```
@@ -24,9 +30,3 @@ Extend the base configuration:
 
 Project-specific options such as `rootDir`, `outDir`, and `include` remain in
 each consuming repository.
-
-## Publishing
-
-Publishing is triggered by pushing a version tag such as `v1.0.0`. The tag must
-match the package version. The workflow publishes the public package to npm
-using the `NPM_TOKEN` repository secret.
