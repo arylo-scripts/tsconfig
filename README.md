@@ -24,3 +24,8 @@ Extend the base configuration:
 
 Project-specific options such as `rootDir`, `outDir`, and `include` remain in
 each consuming repository.
+
+## Publishing
+
+Publishing is triggered by a GitHub Release. The workflow publishes the package
+to GitHub Packages using the repository `GITHUB_TOKEN`.
